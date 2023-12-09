@@ -1,0 +1,11 @@
+def search_replace(my_list, search, replace):
+    new_list = []
+    length = len(my_list)
+
+    for i in range(0, length):
+        if search == my_list[i]:
+            new_list.append(replace)
+        else:
+            new_list.append(my_list[i])
+
+    return (new_list)
