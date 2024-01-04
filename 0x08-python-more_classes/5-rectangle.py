@@ -108,4 +108,4 @@ class Rectangle:
 
         """ print a farewell mesaage to each deleted rectangle """
 
-        print("Bye rectangle... ")
+        print("Bye rectangle...")
