@@ -1,8 +1,8 @@
-#!/usr/bin/python33
-
-import json
+#!/usr/bin/python3
 
 """ Defines a function "5-save_to_json_file" """
+
+import json
 
 
 def save_to_json_file(my_obj, filename):
