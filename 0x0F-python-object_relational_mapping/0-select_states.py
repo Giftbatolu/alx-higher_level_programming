@@ -16,7 +16,7 @@ if __name__ == "__main__":
         db=argv[3]
         )
     cur_sor = my_db.cursor()
-    cur_sor.excute("SELECT * FROM states ORDER BY id ASC")
+    cur_sor.execute("SELECT * FROM states ORDER BY id ASC")
 
     result_rows = cur_sor.fetchall()
 
