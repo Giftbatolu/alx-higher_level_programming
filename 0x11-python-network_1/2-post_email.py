@@ -8,13 +8,15 @@
 import sys
 import urllib.request
 
-url = sys.argv[1]
-email = {"email": sys.argv[2]}
+if __name__ == "__main__":
 
-data = urllib.parse.urlencode(email)
-data = data.encode('utf-8')
+    url = sys.argv[1]
+    email = {"email": sys.argv[2]}
 
-with urllib.request.urlopen(url) as res:
-    res_body = res.read().decode('utf-8')
+    data = urllib.parse.urlencode(email)
+    data = data.encode('utf-8')
 
-print(res_body)
+    with urllib.request.urlopen(url) as res:
+        res_body = res.read().decode('utf-8')
+
+    print(res_body)
