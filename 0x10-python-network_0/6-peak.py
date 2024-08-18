@@ -1,5 +1,8 @@
 #!/usr/bin/python3
 
+""" Return the peak value with lowest complexity """
+
+
 def find_peak(list_of_integers):
     """
         A function that find the peak value of a list of integer.
